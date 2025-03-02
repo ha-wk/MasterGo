@@ -19,7 +19,7 @@ func longRunningTask(ctx context.Context) {
 	}
 }
 
-func main() {
+func main3() {
 	// Create a context with timeout of 3 seconds
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel() // Ensure cancel is called to free resources
