@@ -11,7 +11,7 @@ func closures() func() int{
 	}
 }
 
-func main() {
+func main2() {
 	counter1:=closures()        //instance 1
 	counter2:=closures()        //instance 2
 

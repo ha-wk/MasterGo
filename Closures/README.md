@@ -37,3 +37,25 @@ In this case, the setupHandler function prepares a specific configuration for ha
 Conclusion
 
 In summary, closures are instrumental in managing state and encapsulating behavior within functions. They enable developers to create efficient caching mechanisms and perform necessary precomputations while maintaining clean and modular code. This flexibility makes closures a valuable tool in various programming scenarios.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7️⃣ Practice Questions
+Try solving these to strengthen your understanding:
+
+1️⃣ Write a closure-based counter that increments by 2 each time it's called.
+2️⃣ Implement a closure that memorizes the previous 5 values of a function call.
+3️⃣ Write a function generateMultiplier(n int) that returns a closure multiplying any number by n.
+4️⃣ Implement a timer closure that tracks the number of times it's executed.
+5️⃣ Create a Goroutine-safe counter using a closure with a Mutex.

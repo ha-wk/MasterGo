@@ -1,0 +1,30 @@
+📌 Context Package – Managing Goroutines
+The context package in Go helps manage the lifecycle of goroutines by enabling timeouts, deadlines, and cancellation signals. It prevents goroutines from running indefinitely and wasting resources.
+
+📍 Why Use the context Package?
+✅ Graceful Shutdown: Stops goroutines when they’re no longer needed.
+✅ Timeouts & Deadlines: Automatically cancels goroutines after a specific time.
+✅ Avoid Goroutine Leaks: Ensures unused goroutines don’t keep running.
+✅ Pass Request-Specific Values: Context can carry metadata across function calls.
+
+WE WILL NOW SEE  TYPES OF EXAMPLES RELATED TO Context
+
+🛠️ Example 1: Context with Timeout
+🛠️ Example 2: Context with Cancellation (Manual Stop)
+🛠️ Example 3: Context with Deadline
+🛠️ Example 4: Context with Value (Passing Data)
+
+
+📌 Hands-on Practice Questions
+1️⃣ Implement a function that runs a goroutine for a maximum of 4 seconds using context.WithTimeout().
+2️⃣ Create a worker goroutine that stops manually using context.WithCancel().
+3️⃣ Write a function that sets a deadline of 5 seconds, but stops earlier if manually canceled.
+4️⃣ Modify a function to use context.WithValue() to pass user credentials and retrieve them inside a goroutine.
+
+💡 Key Takeaways
+✅ Context allows controlled goroutine management.
+✅ Use WithTimeout and WithDeadline to auto-stop goroutines.
+✅ Use WithCancel for manual goroutine cancellation.
+✅ Use WithValue to pass metadata across functions.
+
+Mastering the context package ensures efficient resource management in real-world applications! 🚀

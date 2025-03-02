@@ -42,27 +42,27 @@ Week 2: Concurrency & Parallelism
 
 Topics Covered
 
-Goroutines & Channels (Buffered/Unbuffered)
+-Goroutines & Channels (Buffered/Unbuffered)
 
-Select Statement & Multiplexing Channels
+-Select Statement & Multiplexing Channels
 
-Sync Mechanisms: Mutex, RWMutex, WaitGroups
+-Sync Mechanisms: Mutex, RWMutex, WaitGroups
 
-Context Package for Goroutine Management
+-Context Package for Goroutine Management
 
-Worker Pools & Fan-out/Fan-in Patterns
+-Worker Pools & Fan-out/Fan-in Patterns
 
-Performance Optimization with Parallelism
+-Performance Optimization with Parallelism
 
 Hands-on Tasks
 
-Compute squares of numbers using multiple goroutines.
+>>Compute squares of numbers using multiple goroutines.
 
-Implement a worker pool with Goroutines and Channels.
+>>Implement a worker pool with Goroutines and Channels.
 
-Use context.WithTimeout() in an HTTP server.
+>>Use context.WithTimeout() in an HTTP server.
 
-Demonstrate a deadlock and fix it.
+>>Demonstrate a deadlock and fix it.
 
 Week 3: Web Development & APIs
 
