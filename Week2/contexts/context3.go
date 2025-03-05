@@ -10,7 +10,7 @@ func processRequest(ctx context.Context) {
 	fmt.Println("Processing request for user:", userID)
 }
 
-func main() {
+func main3() {
 	ctx := context.WithValue(context.Background(), "userID", 12345) // Store a value
 	processRequest(ctx)
 }
